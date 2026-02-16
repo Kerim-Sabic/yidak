@@ -1,0 +1,27 @@
+{
+  "name": "@yidak/ui",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "lint": "eslint .",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "clean": "powershell -NoProfile -Command \"Remove-Item -Recurse -Force dist -ErrorAction SilentlyContinue\""
+  },
+  "devDependencies": {
+    "@yidak/eslint-config": "workspace:*",
+    "@yidak/typescript-config": "workspace:*",
+    "eslint": "^9.20.1",
+    "vitest": "^2.1.8"
+  }
+}

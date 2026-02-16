@@ -1,0 +1,31 @@
+{
+  "name": "yidak",
+  "private": true,
+  "packageManager": "pnpm@9.15.4",
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
+    "test": "turbo run test",
+    "test:e2e": "turbo run test:e2e",
+    "db:generate": "turbo run db:generate",
+    "db:migrate": "turbo run db:migrate",
+    "clean": "turbo run clean --continue",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.0",
+    "@vitejs/plugin-react": "^5.0.4",
+    "@vitest/coverage-v8": "^2.1.9",
+    "@types/node": "^22.13.5",
+    "jsdom": "^27.0.0",
+    "msw": "^2.11.2",
+    "prettier": "^3.5.2",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "turbo": "^2.4.2",
+    "typescript": "^5.7.3",
+    "vitest": "^2.1.9"
+  }
+}

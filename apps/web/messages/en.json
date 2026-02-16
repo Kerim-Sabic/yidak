@@ -1,0 +1,1911 @@
+{
+  "metadata": {
+    "title": "Yidak | Shariah-Compliant Handyman Marketplace",
+    "description": "Post jobs, receive lower bids, and hire trusted workers across the GCC."
+  },
+  "common": {
+    "appName": "Yidak",
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "retry": "Retry",
+    "close": "Close",
+    "submit": "Submit",
+    "search": "Search",
+    "filter": "Filter",
+    "clear": "Clear",
+    "next": "Next",
+    "previous": "Previous",
+    "continue": "Continue",
+    "back": "Back",
+    "optional": "Optional",
+    "required": "Required",
+    "yes": "Yes",
+    "no": "No",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "online": "Online",
+    "offline": "Offline",
+    "language": "Language",
+    "currency": "Currency",
+    "country": "Country",
+    "city": "City",
+    "area": "Area",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "fullName": "Full Name",
+    "welcome": "Welcome",
+    "logout": "Logout",
+    "login": "Login",
+    "signup": "Sign up",
+    "status": "Status",
+    "amount": "Amount",
+    "date": "Date",
+    "time": "Time",
+    "actions": "Actions"
+  },
+  "nav": {
+    "home": "Home",
+    "howItWorks": "How it works",
+    "categories": "Categories",
+    "postJob": "Post a Job",
+    "becomeWorker": "Become a Worker",
+    "dashboard": "Dashboard",
+    "jobs": "Jobs",
+    "bids": "Bids",
+    "payments": "Payments",
+    "earnings": "Earnings",
+    "profile": "Profile",
+    "admin": "Admin",
+    "notifications": "Notifications",
+    "messages": "Messages",
+    "settings": "Settings",
+    "support": "Support",
+    "about": "About",
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "contact": "Contact"
+  },
+  "errors": {
+    "title": "Something went wrong",
+    "description": "An unexpected error occurred. Please try again.",
+    "retry": "Try again",
+    "generic": {
+      "title": "Something went wrong",
+      "description": "An unexpected error occurred. Please try again.",
+      "retry": "Try again"
+    }
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "The page you requested does not exist.",
+    "goHome": "Go to home"
+  },
+  "landing": {
+    "hero": {
+      "badge": "Reverse auction, done right",
+      "title": "Post once. Get lower bids. Hire with confidence.",
+      "subtitle": "Yidak connects customers with trusted workers across all GCC countries, fully Shariah compliant.",
+      "ctaPost": "Post a Job",
+      "ctaWorker": "Become a Worker"
+    },
+    "highlights": {
+      "title": "Why customers choose Yidak",
+      "one": "Workers compete by bidding down within your budget range.",
+      "two": "Transparent profiles, ratings, and communication before hiring.",
+      "three": "Secure Stripe payments with clear fees and payout flow."
+    },
+    "howItWorks": {
+      "title": "How it works",
+      "steps": {
+        "post": {
+          "title": "Post",
+          "description": "Describe your job, location, and budget in minutes."
+        },
+        "bid": {
+          "title": "Bid",
+          "description": "Qualified workers submit competitive lower bids."
+        },
+        "done": {
+          "title": "Done",
+          "description": "Pick the best bid, finish the job, and leave a review."
+        }
+      }
+    },
+    "categories": {
+      "title": "Top service categories",
+      "items": {
+        "plumbing": "Plumbing",
+        "electrical": "Electrical",
+        "cleaning": "Cleaning",
+        "ac": "AC & HVAC"
+      }
+    },
+    "trust": {
+      "title": "Built for trust in the GCC",
+      "shariah": "Shariah-compliant payment and transaction flow.",
+      "gcc": "Designed for UAE, KSA, Qatar, Bahrain, Kuwait, and Oman.",
+      "payments": "Stripe support for local cards and wallets."
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome back",
+      "subtitle": "Sign in with your phone to continue managing jobs, bids, and chats.",
+      "countryLabel": "Country code",
+      "phoneLabel": "Phone number",
+      "phonePlaceholder": "50 123 4567",
+      "sendOtp": "Send OTP",
+      "sendingOtp": "Sending OTP...",
+      "otpLabel": "Verification code",
+      "resendIn": "Resend in {seconds}s",
+      "resendNow": "You can resend the code now",
+      "verifyOtp": "Verify and continue",
+      "verifyingOtp": "Verifying...",
+      "success": "Verified",
+      "socialDivider": "or continue with",
+      "socialGoogle": "Google",
+      "socialApple": "Apple",
+      "emailPrompt": "Prefer email?",
+      "emailLink": "Use email verification",
+      "validation": {
+        "phone": "Please enter a valid phone number."
+      },
+      "errors": {
+        "generic": "We could not complete this request. Please try again.",
+        "invalidOtp": "The code is invalid or expired. Request a new code and retry."
+      },
+      "messages": {
+        "otpSent": "A code has been sent to your phone.",
+        "loggedIn": "Your number is verified. Redirecting..."
+      }
+    },
+    "signup": {
+      "title": "Create your Yidak account",
+      "subtitle": "Choose your role, verify your phone, and complete your profile.",
+      "steps": {
+        "role": "Role",
+        "verify": "Verify",
+        "profile": "Profile"
+      },
+      "role": {
+        "title": "How will you use Yidak?",
+        "customer": {
+          "title": "I need help",
+          "description": "Post home service jobs and receive lower bids from qualified workers."
+        },
+        "worker": {
+          "title": "I offer services",
+          "description": "Bid on nearby jobs, win work, and grow your earnings."
+        },
+        "next": "Continue"
+      },
+      "phone": {
+        "title": "Verify your phone",
+        "subtitle": "We will send a one-time code to secure your account.",
+        "countryLabel": "Country code",
+        "phoneLabel": "Phone number",
+        "phonePlaceholder": "50 123 4567",
+        "otpLabel": "Verification code",
+        "sendOtp": "Send OTP",
+        "sendingOtp": "Sending OTP...",
+        "verifyOtp": "Verify number",
+        "verifyingOtp": "Verifying...",
+        "resendIn": "Resend in",
+        "resendNow": "You can resend the code now",
+        "error": "Phone verification failed. Check the code and try again."
+      },
+      "profile": {
+        "title": "Complete your profile",
+        "fullName": "Full name",
+        "city": "City",
+        "photo": "Profile photo",
+        "photoHint": "Use a clear headshot to build trust faster.",
+        "skills": "Service skills",
+        "bio": "Short bio",
+        "hourlyMin": "Hourly rate (min)",
+        "hourlyMax": "Hourly rate (max)",
+        "complete": "Complete setup",
+        "completing": "Saving profile...",
+        "camera": "Camera",
+        "gallery": "Gallery",
+        "error": "Unable to complete setup. Please review your information."
+      },
+      "errors": {
+        "profile": "Unable to save profile details. Please retry."
+      },
+      "cities": {
+        "dubai": "Dubai",
+        "abuDhabi": "Abu Dhabi",
+        "sharjah": "Sharjah",
+        "riyadh": "Riyadh",
+        "jeddah": "Jeddah",
+        "doha": "Doha",
+        "manama": "Manama",
+        "kuwaitCity": "Kuwait City",
+        "muscat": "Muscat",
+        "dammam": "Dammam",
+        "alAin": "Al Ain",
+        "salalah": "Salalah"
+      },
+      "skills": {
+        "plumbing": "Plumbing",
+        "electrical": "Electrical",
+        "acHvac": "AC & HVAC",
+        "painting": "Painting",
+        "carpentry": "Carpentry",
+        "cleaning": "Cleaning",
+        "applianceRepair": "Appliance Repair",
+        "smartHome": "Smart Home"
+      }
+    },
+    "verify": {
+      "title": "Verify your account",
+      "subtitle": "Completing sign-in... please wait.",
+      "error": "Verification failed. Please request a new verification link.",
+      "backToLogin": "Back to login"
+    },
+    "layout": {
+      "title": "Secure access for every job and every worker",
+      "tagline": "Phone-first sign in for GCC users, with social login and role-aware onboarding built for Yidak."
+    },
+    "unauthorized": {
+      "title": "Unauthorized access",
+      "description": "Your account role does not have permission to open this page.",
+      "backHome": "Go to home"
+    }
+  },
+  "customer": {
+    "dashboard": {
+      "title": "Customer dashboard",
+      "subtitle": "Track active jobs, bids, and payments at a glance.",
+      "stats": {
+        "activeJobs": "Active Jobs",
+        "activeJobsHint": "Jobs currently in progress",
+        "totalSpent": "Total Spent",
+        "totalSpentHint": "Paid amount for completed jobs",
+        "averageSavings": "Average Savings",
+        "averageSavingsHint": "Savings from reverse bidding",
+        "jobsCompleted": "Jobs Completed",
+        "jobsCompletedHint": "Total finished jobs"
+      },
+      "tabs": {
+        "active": "Active",
+        "completed": "Completed",
+        "cancelled": "Cancelled"
+      },
+      "empty": {
+        "title": "No jobs yet",
+        "description": "Post your first job to start receiving bids.",
+        "cta": "Post your first job"
+      },
+      "card": {
+        "bids": "bids",
+        "lowestBid": "Lowest bid",
+        "posted": "Posted",
+        "timeRemaining": "Time remaining",
+        "expired": "Expired"
+      },
+      "fallback": {
+        "category": "Service category"
+      }
+    },
+    "jobs": {
+      "new": {
+        "title": "Post a New Job",
+        "subtitle": "Go step by step and post a complete job in minutes.",
+        "actions": {
+          "back": "Back",
+          "next": "Next",
+          "post": "Post Job ? Yidak",
+          "posting": "Posting..."
+        },
+        "steps": {
+          "labels": {
+            "category": "Category",
+            "details": "Details",
+            "location": "Location",
+            "budget": "Budget",
+            "review": "Review"
+          },
+          "category": {
+            "title": "Select a Service Category",
+            "subtitle": "Pick the category that best matches your request."
+          },
+          "details": {
+            "title": "Job Details",
+            "subtitle": "Describe the task clearly and attach helpful photos."
+          },
+          "location": {
+            "title": "Location",
+            "subtitle": "Set the exact location so nearby workers can bid."
+          },
+          "budget": {
+            "title": "Budget & Schedule",
+            "subtitle": "Set your budget range, urgency, and preferred timing."
+          },
+          "review": {
+            "title": "Review & Post",
+            "subtitle": "Confirm everything before publishing the job."
+          }
+        },
+        "form": {
+          "title": "Job title",
+          "titlePlaceholder": "Example: Fix kitchen sink leak",
+          "description": "Job description",
+          "descriptionPlaceholder": "Describe the issue and what you need done...",
+          "aiAssist": "? Help me describe",
+          "aiDrawerTitle": "AI Description Assistant",
+          "aiDrawerDescription": "Enter a short brief and get 3 suggested descriptions.",
+          "aiGenerate": "Generate options",
+          "photoUploadTitle": "Add Photos",
+          "photoUploadSubtitle": "Drag and drop or click to upload (up to 10 photos).",
+          "photoUploading": "Uploading photos...",
+          "photoMaxReached": "Maximum photo limit reached.",
+          "photoRemove": "Remove photo",
+          "preferenceLabel": "Service provider preference",
+          "preferenceAny": "Any",
+          "preferenceMale": "Male",
+          "preferenceFemale": "Female",
+          "locationSearchPlaceholder": "Search city or address",
+          "useCurrentLocation": "Use current location",
+          "addressLabel": "Full address",
+          "cityLabel": "City",
+          "areaLabel": "Area",
+          "buildingLabel": "Building / Apartment",
+          "countryLabel": "Country",
+          "budgetMin": "Minimum",
+          "budgetMax": "Maximum",
+          "suggestedRange": "Suggested range",
+          "urgencyLabel": "Urgency",
+          "scheduleLabel": "Schedule",
+          "scheduleAsap": "As soon as possible",
+          "scheduleLater": "Schedule for later",
+          "pickDate": "Pick a date",
+          "pickTime": "Pick a time"
+        },
+        "urgency": {
+          "flexible": "Flexible",
+          "normal": "Normal",
+          "urgent": "Urgent",
+          "emergency": "Emergency",
+          "noSurcharge": "No surcharge",
+          "moderateSurcharge": "Moderate surcharge",
+          "highSurcharge": "High surcharge"
+        },
+        "review": {
+          "summary": "Summary",
+          "editCategory": "Edit category",
+          "category": "Category",
+          "title": "Title",
+          "description": "Description",
+          "photos": "Photos",
+          "photoAlt": "Job photo",
+          "noPhotos": "No photos added.",
+          "editDetails": "Edit details",
+          "location": "Location",
+          "editLocation": "Edit location",
+          "pricing": "Estimated cost",
+          "editBudget": "Edit budget",
+          "budget": "Budget range",
+          "platformFeeNote": "Platform fees may apply based on service type and city.",
+          "escrowNote": "Funds are held in secure escrow until completion.",
+          "shariahBadge": "Shariah Compliant",
+          "shariahTooltip": "Yidak uses a Wakalah-Wadiah escrow model for compliant transactions.",
+          "termsPrefix": "I agree to the",
+          "termsLink": "terms of service"
+        },
+        "countries": {
+          "ae": "UAE",
+          "sa": "KSA",
+          "qa": "Qatar",
+          "bh": "Bahrain",
+          "kw": "Kuwait",
+          "om": "Oman"
+        },
+        "categories": {
+          "subcategoriesLabel": "Subcategories",
+          "plumbing": {
+            "name": "Plumbing",
+            "description": "Pipes, leaks, and water fixtures.",
+            "subcategories": {
+              "pipeLeak": "Pipe leak repair",
+              "waterHeater": "Water heater service",
+              "drainCleaning": "Drain cleaning"
+            }
+          },
+          "electrical": {
+            "name": "Electrical",
+            "description": "Wiring, sockets, and power issues.",
+            "subcategories": {
+              "socketRepair": "Socket and switch repair",
+              "wiring": "Wiring and rewiring",
+              "breaker": "Breaker panel issues"
+            }
+          },
+          "ac-hvac": {
+            "name": "AC & HVAC",
+            "description": "Cooling systems and airflow maintenance.",
+            "subcategories": {
+              "acMaintenance": "AC maintenance",
+              "acRepair": "AC repair",
+              "ductCleaning": "Duct cleaning"
+            }
+          },
+          "painting": {
+            "name": "Painting",
+            "description": "Interior and exterior paint work.",
+            "subcategories": {
+              "interior": "Interior painting",
+              "exterior": "Exterior painting",
+              "touchUps": "Touch-ups and patching"
+            }
+          },
+          "carpentry": {
+            "name": "Carpentry",
+            "description": "Woodwork, doors, and custom fixes.",
+            "subcategories": {
+              "cabinetFix": "Cabinet repair",
+              "doorRepair": "Door and frame repair",
+              "customShelf": "Custom shelves"
+            }
+          },
+          "cleaning": {
+            "name": "Cleaning",
+            "description": "Deep cleaning for homes and offices.",
+            "subcategories": {
+              "deepClean": "Deep cleaning",
+              "moveInOut": "Move in/out cleaning",
+              "postRenovation": "Post-renovation cleaning"
+            }
+          },
+          "pest-control": {
+            "name": "Pest Control",
+            "description": "Safe pest treatment and prevention.",
+            "subcategories": {
+              "cockroach": "Cockroach treatment",
+              "termite": "Termite control",
+              "rodent": "Rodent control"
+            }
+          },
+          "moving": {
+            "name": "Moving",
+            "description": "Packing, transport, and relocation support.",
+            "subcategories": {
+              "studioMove": "Studio move",
+              "villaMove": "Villa move",
+              "packing": "Packing and unpacking"
+            }
+          },
+          "locksmith": {
+            "name": "Locksmith",
+            "description": "Locks, keys, and smart lock setup.",
+            "subcategories": {
+              "doorUnlock": "Door unlocking",
+              "lockChange": "Lock replacement",
+              "smartLock": "Smart lock setup"
+            }
+          },
+          "appliance-repair": {
+            "name": "Appliance Repair",
+            "description": "Major home appliance repairs.",
+            "subcategories": {
+              "washingMachine": "Washing machine repair",
+              "fridge": "Fridge repair",
+              "oven": "Oven and cooker repair"
+            }
+          },
+          "landscaping": {
+            "name": "Landscaping",
+            "description": "Garden care and outdoor improvements.",
+            "subcategories": {
+              "gardenCare": "Garden maintenance",
+              "irrigation": "Irrigation setup",
+              "treeTrim": "Tree trimming"
+            }
+          },
+          "tiling": {
+            "name": "Tiling",
+            "description": "Tile installation and replacement.",
+            "subcategories": {
+              "bathroom": "Bathroom tiling",
+              "kitchen": "Kitchen tiling",
+              "outdoor": "Outdoor tiling"
+            }
+          },
+          "glass-mirrors": {
+            "name": "Glass & Mirrors",
+            "description": "Glass fitting and mirror installation.",
+            "subcategories": {
+              "mirrorInstall": "Mirror installation",
+              "windowFix": "Window glass repair",
+              "glassDoor": "Glass door service"
+            }
+          },
+          "welding": {
+            "name": "Welding",
+            "description": "Metal fabrication and structural repairs.",
+            "subcategories": {
+              "gateRepair": "Gate welding",
+              "railing": "Railing welding",
+              "customFrame": "Custom metal frames"
+            }
+          },
+          "masonry": {
+            "name": "Masonry",
+            "description": "Block, concrete, and wall work.",
+            "subcategories": {
+              "blockWork": "Block work",
+              "plaster": "Plastering",
+              "concretePatch": "Concrete patching"
+            }
+          },
+          "roofing": {
+            "name": "Roofing",
+            "description": "Roof repairs and weather protection.",
+            "subcategories": {
+              "waterLeak": "Roof leak repair",
+              "roofCoating": "Roof coating",
+              "tileRepair": "Roof tile repair"
+            }
+          },
+          "flooring": {
+            "name": "Flooring",
+            "description": "Floor installation and restoration.",
+            "subcategories": {
+              "vinyl": "Vinyl flooring",
+              "wood": "Wood flooring",
+              "marblePolish": "Marble polishing"
+            }
+          },
+          "curtains-blinds": {
+            "name": "Curtains & Blinds",
+            "description": "Window dressing installation and repair.",
+            "subcategories": {
+              "curtainInstall": "Curtain installation",
+              "blindRepair": "Blind repair",
+              "motorized": "Motorized blinds"
+            }
+          },
+          "handyman-general": {
+            "name": "General Handyman",
+            "description": "Small repairs and mixed tasks.",
+            "subcategories": {
+              "minorFixes": "Minor repairs",
+              "assembly": "Furniture assembly",
+              "maintenance": "General maintenance"
+            }
+          },
+          "smart-home": {
+            "name": "Smart Home",
+            "description": "Home automation and IoT setup.",
+            "subcategories": {
+              "cameraSetup": "Security camera setup",
+              "doorbell": "Smart doorbell installation",
+              "automation": "Automation scenes"
+            }
+          },
+          "waterproofing": {
+            "name": "Waterproofing",
+            "description": "Water leak prevention and sealing.",
+            "subcategories": {
+              "bathroomSeal": "Bathroom waterproofing",
+              "roofSeal": "Roof sealing",
+              "basement": "Basement sealing"
+            }
+          },
+          "renovation": {
+            "name": "Renovation",
+            "description": "Partial or full space renovation.",
+            "subcategories": {
+              "kitchen": "Kitchen renovation",
+              "bathroom": "Bathroom renovation",
+              "fullUnit": "Full unit renovation"
+            }
+          }
+        },
+        "messages": {
+          "postedSuccess": "Job posted successfully."
+        },
+        "errors": {
+          "geolocation": "Unable to access your current location.",
+          "submitFailed": "Unable to post the job. Please try again.",
+          "fixFields": "Please complete required fields before continuing."
+        }
+      },
+      "detail": {
+        "title": "Job #{id}",
+        "subtitle": "Review bids, chat with workers, and manage progress.",
+        "bidsSectionTitle": "Bids",
+        "chatSectionTitle": "Chat",
+        "invalidJobId": "Invalid job identifier.",
+        "noBidsYet": "No bids yet.",
+        "chatUnavailable": "Chat is currently unavailable.",
+        "chatLocked": "Chat appears once a worker is assigned.",
+        "chatPlaceholder": "Type your message...",
+        "sendMessage": "Send message",
+        "fallback": {
+          "category": "Service category"
+        },
+        "postedAgo": "Posted {value}",
+        "descriptionLabel": "Description",
+        "readMore": "Read more",
+        "readLess": "Read less",
+        "photosLabel": "Photo gallery",
+        "photoAlt": "Job photo",
+        "noPhotos": "No photos attached.",
+        "budgetLabel": "Budget",
+        "viewerCount": "{count} workers viewing",
+        "timerExtended": "Auction time extended by 2 minutes.",
+        "timerExpired": "Auction Ended",
+        "accept": {
+          "title": "Accept this bid?",
+          "description": "You are about to assign this worker and authorize escrow.",
+          "worker": "Worker",
+          "amount": "Bid amount",
+          "escrowNote": "Escrow funds are authorized securely and released on completion.",
+          "cancel": "Cancel",
+          "confirm": "Confirm acceptance",
+          "confirming": "Confirming...",
+          "success": "Bid accepted successfully.",
+          "unknownWorker": "Unknown worker"
+        },
+        "bidCard": {
+          "duration": "Duration",
+          "status": "Status",
+          "completionRate": "Completion rate",
+          "acceptBid": "Accept Bid",
+          "accepting": "Accepting...",
+          "withdraw": "Withdraw",
+          "withdrawing": "Withdrawing...",
+          "showLess": "Show less",
+          "readMore": "Read more",
+          "lowest": "Lowest"
+        }
+      },
+      "bids": {
+        "title": "Bid list"
+      },
+      "chat": {
+        "title": "Job chat"
+      }
+    },
+    "payments": {
+      "title": "Payment center",
+      "subtitle": "Authorize, capture, and review all job payments.",
+      "summary": {
+        "title": "Payment summary",
+        "totalSpent": "Total spent",
+        "capturedCount": "Captured payments"
+      },
+      "filters": {
+        "title": "Filters",
+        "status": "Status",
+        "dateRange": "Date range"
+      },
+      "status": {
+        "all": "All",
+        "pending": "Pending",
+        "authorized": "Authorized",
+        "captured": "Captured",
+        "voided": "Voided",
+        "refunded": "Refunded",
+        "failed": "Failed",
+        "disputed": "Disputed"
+      },
+      "dateRange": {
+        "all": "All time",
+        "last7": "Last 7 days",
+        "last30": "Last 30 days",
+        "last90": "Last 90 days"
+      },
+      "history": {
+        "title": "Payment history",
+        "empty": "No payments match your current filters.",
+        "jobFallback": "Job payment",
+        "downloadReceipt": "Download receipt",
+        "receiptError": "Receipt generation failed. Try again.",
+        "receiptTitle": "Receipt",
+        "receiptJob": "Job",
+        "receiptAmount": "Amount",
+        "receiptStatus": "Status",
+        "receiptDate": "Date"
+      },
+      "escrow": {
+        "fundsHeld": "Funds Held",
+        "workInProgress": "Work in Progress",
+        "completed": "Completed",
+        "released": "Released",
+        "amountHeld": "Amount held",
+        "authorizedAt": "Authorized at",
+        "expectedRelease": "Expected release",
+        "pendingDate": "Pending"
+      },
+      "flow": {
+        "title": "Escrow payment flow",
+        "shariahBadge": "Shariah compliant",
+        "steps": {
+          "summary": "Summary",
+          "method": "Method",
+          "secure": "3D Secure",
+          "confirm": "Confirmed"
+        },
+        "emptySelection": "Choose a payment from history to begin the flow.",
+        "summary": {
+          "title": "Payment summary",
+          "acceptedBid": "Accepted bid",
+          "serviceFee": "Service fee (18%)",
+          "totalHold": "Total hold",
+          "escrowNote": "Funds are held in Shariah-compliant escrow (Wakalah-Wadiah) until the job is completed.",
+          "jobRef": "Job ID: {id}"
+        },
+        "method": {
+          "title": "Select payment method",
+          "savedCard": "Saved card",
+          "addCard": "Add new card",
+          "applePay": "Apple Pay",
+          "recommended": "Recommended"
+        },
+        "secure": {
+          "title": "3D Secure verification",
+          "description": "You will be redirected to complete secure card verification through Tap.",
+          "methodSelected": "Selected method: {method}"
+        },
+        "confirm": {
+          "title": "Authorization complete",
+          "message": "Funds are now held in escrow and will be released after job completion."
+        },
+        "actions": {
+          "continue": "Continue",
+          "authorize": "Authorize hold",
+          "authorizing": "Authorizing...",
+          "complete3ds": "Complete 3D Secure",
+          "startAgain": "Start again"
+        },
+        "messages": {
+          "noPayment": "No payment selected.",
+          "authorized": "Escrow authorization completed successfully.",
+          "failed": "Payment authorization failed."
+        }
+      }
+    },
+    "layout": {
+      "title": "Customer workspace",
+      "home": "Home",
+      "jobs": "My Jobs",
+      "messages": "Messages",
+      "profile": "Profile",
+      "settings": "Settings",
+      "referrals": "Referrals"
+    }
+  },
+  "worker": {
+    "dashboard": {
+      "title": "Worker Dashboard",
+      "subtitle": "Monitor your auctions, wins, and live performance.",
+      "stats": {
+        "totalEarnings": "Total Earnings",
+        "totalEarningsHint": "Captured payouts across completed jobs",
+        "activeBids": "Active Bids",
+        "activeBidsHint": "Pending bids currently competing",
+        "jobsCompleted": "Jobs Completed",
+        "jobsCompletedHint": "Completed jobs on your profile",
+        "rating": "Average Rating",
+        "ratingHint": "Customer satisfaction score",
+        "tierProgress": "Tier Progress",
+        "tierProgressHint": "Progress toward the next tier"
+      },
+      "sections": {
+        "activeBids": "Active Bids",
+        "wonAuctions": "Won Auctions",
+        "inProgress": "In Progress"
+      },
+      "empty": {
+        "active": {
+          "title": "No active bids",
+          "description": "Open jobs and submit your first competitive bid.",
+          "cta": "Browse jobs"
+        },
+        "won": {
+          "title": "No won auctions yet",
+          "description": "Accepted bids will appear here as soon as you win.",
+          "cta": "Keep bidding"
+        },
+        "progress": {
+          "title": "No active jobs",
+          "description": "Assigned jobs in progress will appear in this section.",
+          "cta": "View active jobs"
+        }
+      },
+      "outbid": {
+        "message": "You've been outbid on {title}! Current lowest: {amount}.",
+        "action": "Revise Bid"
+      },
+      "position": "Your bid: #{position}",
+      "positionUnknown": "Position pending",
+      "bidCard": {
+        "duration": "Duration",
+        "status": "Status",
+        "completionRate": "Completion rate",
+        "acceptBid": "Accept Bid",
+        "accepting": "Accepting...",
+        "revise": "Revise Bid",
+        "withdrawing": "Updating...",
+        "showLess": "Show less",
+        "readMore": "Read more",
+        "lowest": "Lowest"
+      },
+      "badges": {
+        "firstJob": {
+          "title": "First Job",
+          "description": "Complete your first job."
+        },
+        "fiveStarStreak": {
+          "title": "Five Star Streak",
+          "description": "Get five consecutive five-star reviews."
+        },
+        "speedDemon": {
+          "title": "Speed Demon",
+          "description": "Complete 3 jobs before the estimated time."
+        },
+        "topCategory": {
+          "title": "Top in Category",
+          "description": "Rank #1 in your category in your city."
+        },
+        "centuryClub": {
+          "title": "Century Club",
+          "description": "Complete 100 jobs."
+        },
+        "repeatFavorite": {
+          "title": "Repeat Favorite",
+          "description": "Get rebooked by 10 customers."
+        },
+        "perfectMonth": {
+          "title": "Perfect Month",
+          "description": "Maintain top ratings for a full month."
+        },
+        "portfolioPro": {
+          "title": "Portfolio Pro",
+          "description": "Upload at least 20 portfolio photos."
+        },
+        "quickResponder": {
+          "title": "Quick Responder",
+          "description": "Average response time under 5 minutes."
+        },
+        "multiCity": {
+          "title": "Multi-City",
+          "description": "Complete jobs in 3 or more cities."
+        }
+      }
+    },
+    "jobs": {
+      "title": "Live Job Feed",
+      "subtitle": "Track new reverse-auction jobs and place competitive bids in real time.",
+      "feed": {
+        "filters": {
+          "title": "Filter jobs",
+          "category": "Category",
+          "allCategories": "All categories",
+          "distance": "Distance",
+          "sortBy": "Sort by",
+          "sortNewest": "Newest",
+          "sortHighestBudget": "Highest budget",
+          "sortEndingSoon": "Ending soon"
+        },
+        "categories": {
+          "plumbing": "Plumbing",
+          "electrical": "Electrical",
+          "ac-hvac": "AC & HVAC",
+          "painting": "Painting",
+          "carpentry": "Carpentry",
+          "cleaning": "Cleaning",
+          "pest-control": "Pest Control",
+          "moving": "Moving",
+          "locksmith": "Locksmith",
+          "appliance-repair": "Appliance Repair",
+          "landscaping": "Landscaping",
+          "tiling": "Tiling",
+          "glass-mirrors": "Glass & Mirrors",
+          "welding": "Welding",
+          "masonry": "Masonry",
+          "roofing": "Roofing",
+          "flooring": "Flooring",
+          "curtains-blinds": "Curtains & Blinds",
+          "handyman-general": "General Handyman",
+          "smart-home": "Smart Home",
+          "waterproofing": "Waterproofing",
+          "renovation": "Renovation"
+        },
+        "empty": "No available jobs match your filters right now.",
+        "newJob": "New job",
+        "unknownCategory": "Service category",
+        "distance": "{value} km away",
+        "bidCount": "{count} bids",
+        "ended": "Auction Ended",
+        "placeBid": "Place Bid"
+      }
+    },
+    "earnings": {
+      "title": "Earnings",
+      "subtitle": "Track payouts, fees, and monthly performance.",
+      "summary": {
+        "totalEarned": "Total earned",
+        "thisMonth": "This month",
+        "pendingPayouts": "Pending payouts",
+        "averagePerJob": "Average per job"
+      },
+      "charts": {
+        "monthly": "Monthly earnings",
+        "weekly": "Weekly trend",
+        "byCategory": "Earnings by category",
+        "categoryFallback": "General services"
+      },
+      "transactions": {
+        "title": "Transactions",
+        "empty": "No captured payouts yet.",
+        "gross": "Gross",
+        "platformFee": "Platform fee",
+        "net": "Net received"
+      },
+      "requestPayout": "Request payout (Coming soon)"
+    },
+    "profile": {
+      "title": "Worker profile",
+      "subtitle": "Showcase your skills, certifications, and portfolio."
+    },
+    "layout": {
+      "title": "Worker workspace",
+      "availableJobs": "Available Jobs",
+      "myBids": "My Bids",
+      "activeJobs": "Active Jobs",
+      "earnings": "Earnings",
+      "profile": "Profile",
+      "availability": "Available",
+      "referrals": "Referrals",
+      "leaderboard": "Leaderboard"
+    },
+    "jobDetail": {
+      "title": "Job Details",
+      "subtitle": "Review job scope and place your bid instantly.",
+      "invalidJob": "Invalid job identifier.",
+      "notFound": "Job not found.",
+      "unknownCategory": "Service category",
+      "photoAlt": "Job photo",
+      "placeTitle": "Place Your Bid",
+      "amountLabel": "Bid amount",
+      "suggestedRange": "Suggested range",
+      "durationLabel": "Estimated duration",
+      "messageLabel": "Why should the customer pick you?",
+      "messagePlaceholder": "Share your approach, timeline, and relevant experience...",
+      "savings": "Your bid saves the customer {value}%",
+      "submitIdle": "Submit Bid",
+      "submitLoading": "Submitting...",
+      "submitSuccess": "Bid submitted",
+      "placeSuccess": "Your bid has been placed.",
+      "withdrawSuccess": "Bid withdrawn successfully.",
+      "myBids": "Your bids",
+      "bidCard": {
+        "duration": "Duration",
+        "status": "Status",
+        "completionRate": "Completion rate",
+        "acceptBid": "Accept Bid",
+        "accepting": "Accepting...",
+        "withdraw": "Withdraw",
+        "withdrawing": "Withdrawing...",
+        "showLess": "Show less",
+        "readMore": "Read more",
+        "lowest": "Lowest"
+      },
+      "customerLabel": "Customer",
+      "unknownCustomer": "Unknown customer",
+      "mapTitle": "Job location map",
+      "openChat": "Open chat"
+    }
+  },
+  "admin": {
+    "dashboard": {
+      "title": "Admin dashboard",
+      "subtitle": "Monitor platform health, disputes, and compliance metrics."
+    },
+    "layout": {
+      "title": "Admin control panel",
+      "dashboard": "Dashboard",
+      "users": "Users",
+      "jobs": "Jobs",
+      "payments": "Payments",
+      "disputes": "Disputes",
+      "reviews": "Reviews",
+      "categories": "Categories",
+      "referrals": "Referrals",
+      "notifications": "Notifications",
+      "settings": "Settings",
+      "mobile": {
+        "title": "Desktop recommended",
+        "body": "Use a desktop browser for full admin tools. Mobile admin experience is read-only."
+      }
+    },
+    "common": {
+      "roles": {
+        "admin": "Platform Admin"
+      },
+      "quickSearch": "Quick search",
+      "searchPlaceholder": "Search admin pages...",
+      "searchEmpty": "No admin page found."
+    },
+    "pages": {
+      "dashboard": {
+        "title": "Platform Overview",
+        "subtitle": "Live KPIs, revenue trends, job heatmaps, and operational alerts."
+      },
+      "users": {
+        "title": "User Management",
+        "subtitle": "Filter users, review KYC status, and manage moderation actions."
+      },
+      "jobs": {
+        "title": "Job Moderation",
+        "subtitle": "Review flagged jobs, approve listings, and audit full job details."
+      },
+      "disputes": {
+        "title": "Dispute Resolution",
+        "subtitle": "Resolve customer-worker disputes with evidence and payout controls."
+      },
+      "payments": {
+        "title": "Payment Overview",
+        "subtitle": "Track escrow status, platform revenue, refunds, and transaction health."
+      },
+      "reviews": {
+        "title": "Review Moderation",
+        "subtitle": "Moderate flagged reviews and maintain marketplace quality."
+      },
+      "categories": {
+        "title": "Category Management",
+        "subtitle": "Create, edit, and reorder service categories and subcategories."
+      },
+      "referrals": {
+        "title": "Referral Operations",
+        "subtitle": "Track referral performance, rewards, and code utilization."
+      },
+      "settings": {
+        "title": "System Settings",
+        "subtitle": "Configure commissions, auction defaults, limits, and feature flags."
+      }
+    }
+  },
+  "validation": {
+    "required": "This field is required",
+    "email": "Please enter a valid email address",
+    "minLength": "This field is too short",
+    "maxLength": "This field is too long",
+    "phone": "Please enter a valid phone number",
+    "passwordMatch": "Passwords do not match",
+    "amountPositive": "Amount must be greater than zero",
+    "budgetRange": "Maximum budget must be greater than or equal to minimum budget",
+    "locationRequired": "Location is required",
+    "unsupportedCountry": "Selected country is not supported"
+  },
+  "statuses": {
+    "job": {
+      "draft": "Draft",
+      "posted": "Posted",
+      "bidding": "Bidding",
+      "assigned": "Assigned",
+      "inProgress": "In progress",
+      "completed": "Completed",
+      "reviewed": "Reviewed",
+      "cancelled": "Cancelled",
+      "expired": "Expired",
+      "disputed": "Disputed"
+    },
+    "bid": {
+      "pending": "Pending",
+      "accepted": "Accepted",
+      "rejected": "Rejected",
+      "withdrawn": "Withdrawn",
+      "expired": "Expired",
+      "outbid": "Outbid"
+    },
+    "payment": {
+      "pending": "Pending",
+      "authorized": "Authorized",
+      "captured": "Captured",
+      "voided": "Voided",
+      "refunded": "Refunded",
+      "failed": "Failed",
+      "disputed": "Disputed"
+    }
+  },
+  "notifications": {
+    "item001": "Notification template 1",
+    "item002": "Notification template 2",
+    "item003": "Notification template 3",
+    "item004": "Notification template 4",
+    "item005": "Notification template 5",
+    "item006": "Notification template 6",
+    "item007": "Notification template 7",
+    "item008": "Notification template 8",
+    "item009": "Notification template 9",
+    "item010": "Notification template 10",
+    "item011": "Notification template 11",
+    "item012": "Notification template 12",
+    "item013": "Notification template 13",
+    "item014": "Notification template 14",
+    "item015": "Notification template 15",
+    "item016": "Notification template 16",
+    "item017": "Notification template 17",
+    "item018": "Notification template 18",
+    "item019": "Notification template 19",
+    "item020": "Notification template 20",
+    "item021": "Notification template 21",
+    "item022": "Notification template 22",
+    "item023": "Notification template 23",
+    "item024": "Notification template 24",
+    "item025": "Notification template 25",
+    "item026": "Notification template 26",
+    "item027": "Notification template 27",
+    "item028": "Notification template 28",
+    "item029": "Notification template 29",
+    "item030": "Notification template 30",
+    "item031": "Notification template 31",
+    "item032": "Notification template 32",
+    "item033": "Notification template 33",
+    "item034": "Notification template 34",
+    "item035": "Notification template 35",
+    "item036": "Notification template 36",
+    "item037": "Notification template 37",
+    "item038": "Notification template 38",
+    "item039": "Notification template 39",
+    "item040": "Notification template 40",
+    "item041": "Notification template 41",
+    "item042": "Notification template 42",
+    "item043": "Notification template 43",
+    "item044": "Notification template 44",
+    "item045": "Notification template 45",
+    "item046": "Notification template 46",
+    "item047": "Notification template 47",
+    "item048": "Notification template 48",
+    "item049": "Notification template 49",
+    "item050": "Notification template 50",
+    "item051": "Notification template 51",
+    "item052": "Notification template 52",
+    "item053": "Notification template 53",
+    "item054": "Notification template 54",
+    "item055": "Notification template 55",
+    "item056": "Notification template 56",
+    "item057": "Notification template 57",
+    "item058": "Notification template 58",
+    "item059": "Notification template 59",
+    "item060": "Notification template 60",
+    "item061": "Notification template 61",
+    "item062": "Notification template 62",
+    "item063": "Notification template 63",
+    "item064": "Notification template 64",
+    "item065": "Notification template 65",
+    "item066": "Notification template 66",
+    "item067": "Notification template 67",
+    "item068": "Notification template 68",
+    "item069": "Notification template 69",
+    "item070": "Notification template 70",
+    "item071": "Notification template 71",
+    "item072": "Notification template 72",
+    "item073": "Notification template 73",
+    "item074": "Notification template 74",
+    "item075": "Notification template 75",
+    "item076": "Notification template 76",
+    "item077": "Notification template 77",
+    "item078": "Notification template 78",
+    "item079": "Notification template 79",
+    "item080": "Notification template 80"
+  },
+  "screens": {
+    "screen001": {
+      "title": "Screen title 1",
+      "description": "Screen description 1"
+    },
+    "screen002": {
+      "title": "Screen title 2",
+      "description": "Screen description 2"
+    },
+    "screen003": {
+      "title": "Screen title 3",
+      "description": "Screen description 3"
+    },
+    "screen004": {
+      "title": "Screen title 4",
+      "description": "Screen description 4"
+    },
+    "screen005": {
+      "title": "Screen title 5",
+      "description": "Screen description 5"
+    },
+    "screen006": {
+      "title": "Screen title 6",
+      "description": "Screen description 6"
+    },
+    "screen007": {
+      "title": "Screen title 7",
+      "description": "Screen description 7"
+    },
+    "screen008": {
+      "title": "Screen title 8",
+      "description": "Screen description 8"
+    },
+    "screen009": {
+      "title": "Screen title 9",
+      "description": "Screen description 9"
+    },
+    "screen010": {
+      "title": "Screen title 10",
+      "description": "Screen description 10"
+    },
+    "screen011": {
+      "title": "Screen title 11",
+      "description": "Screen description 11"
+    },
+    "screen012": {
+      "title": "Screen title 12",
+      "description": "Screen description 12"
+    },
+    "screen013": {
+      "title": "Screen title 13",
+      "description": "Screen description 13"
+    },
+    "screen014": {
+      "title": "Screen title 14",
+      "description": "Screen description 14"
+    },
+    "screen015": {
+      "title": "Screen title 15",
+      "description": "Screen description 15"
+    },
+    "screen016": {
+      "title": "Screen title 16",
+      "description": "Screen description 16"
+    },
+    "screen017": {
+      "title": "Screen title 17",
+      "description": "Screen description 17"
+    },
+    "screen018": {
+      "title": "Screen title 18",
+      "description": "Screen description 18"
+    },
+    "screen019": {
+      "title": "Screen title 19",
+      "description": "Screen description 19"
+    },
+    "screen020": {
+      "title": "Screen title 20",
+      "description": "Screen description 20"
+    },
+    "screen021": {
+      "title": "Screen title 21",
+      "description": "Screen description 21"
+    },
+    "screen022": {
+      "title": "Screen title 22",
+      "description": "Screen description 22"
+    },
+    "screen023": {
+      "title": "Screen title 23",
+      "description": "Screen description 23"
+    },
+    "screen024": {
+      "title": "Screen title 24",
+      "description": "Screen description 24"
+    },
+    "screen025": {
+      "title": "Screen title 25",
+      "description": "Screen description 25"
+    },
+    "screen026": {
+      "title": "Screen title 26",
+      "description": "Screen description 26"
+    },
+    "screen027": {
+      "title": "Screen title 27",
+      "description": "Screen description 27"
+    },
+    "screen028": {
+      "title": "Screen title 28",
+      "description": "Screen description 28"
+    },
+    "screen029": {
+      "title": "Screen title 29",
+      "description": "Screen description 29"
+    },
+    "screen030": {
+      "title": "Screen title 30",
+      "description": "Screen description 30"
+    },
+    "screen031": {
+      "title": "Screen title 31",
+      "description": "Screen description 31"
+    },
+    "screen032": {
+      "title": "Screen title 32",
+      "description": "Screen description 32"
+    },
+    "screen033": {
+      "title": "Screen title 33",
+      "description": "Screen description 33"
+    },
+    "screen034": {
+      "title": "Screen title 34",
+      "description": "Screen description 34"
+    },
+    "screen035": {
+      "title": "Screen title 35",
+      "description": "Screen description 35"
+    },
+    "screen036": {
+      "title": "Screen title 36",
+      "description": "Screen description 36"
+    },
+    "screen037": {
+      "title": "Screen title 37",
+      "description": "Screen description 37"
+    },
+    "screen038": {
+      "title": "Screen title 38",
+      "description": "Screen description 38"
+    },
+    "screen039": {
+      "title": "Screen title 39",
+      "description": "Screen description 39"
+    },
+    "screen040": {
+      "title": "Screen title 40",
+      "description": "Screen description 40"
+    },
+    "screen041": {
+      "title": "Screen title 41",
+      "description": "Screen description 41"
+    },
+    "screen042": {
+      "title": "Screen title 42",
+      "description": "Screen description 42"
+    },
+    "screen043": {
+      "title": "Screen title 43",
+      "description": "Screen description 43"
+    },
+    "screen044": {
+      "title": "Screen title 44",
+      "description": "Screen description 44"
+    },
+    "screen045": {
+      "title": "Screen title 45",
+      "description": "Screen description 45"
+    },
+    "screen046": {
+      "title": "Screen title 46",
+      "description": "Screen description 46"
+    },
+    "screen047": {
+      "title": "Screen title 47",
+      "description": "Screen description 47"
+    },
+    "screen048": {
+      "title": "Screen title 48",
+      "description": "Screen description 48"
+    },
+    "screen049": {
+      "title": "Screen title 49",
+      "description": "Screen description 49"
+    },
+    "screen050": {
+      "title": "Screen title 50",
+      "description": "Screen description 50"
+    },
+    "screen051": {
+      "title": "Screen title 51",
+      "description": "Screen description 51"
+    },
+    "screen052": {
+      "title": "Screen title 52",
+      "description": "Screen description 52"
+    },
+    "screen053": {
+      "title": "Screen title 53",
+      "description": "Screen description 53"
+    },
+    "screen054": {
+      "title": "Screen title 54",
+      "description": "Screen description 54"
+    },
+    "screen055": {
+      "title": "Screen title 55",
+      "description": "Screen description 55"
+    },
+    "screen056": {
+      "title": "Screen title 56",
+      "description": "Screen description 56"
+    },
+    "screen057": {
+      "title": "Screen title 57",
+      "description": "Screen description 57"
+    },
+    "screen058": {
+      "title": "Screen title 58",
+      "description": "Screen description 58"
+    },
+    "screen059": {
+      "title": "Screen title 59",
+      "description": "Screen description 59"
+    },
+    "screen060": {
+      "title": "Screen title 60",
+      "description": "Screen description 60"
+    },
+    "screen061": {
+      "title": "Screen title 61",
+      "description": "Screen description 61"
+    },
+    "screen062": {
+      "title": "Screen title 62",
+      "description": "Screen description 62"
+    },
+    "screen063": {
+      "title": "Screen title 63",
+      "description": "Screen description 63"
+    },
+    "screen064": {
+      "title": "Screen title 64",
+      "description": "Screen description 64"
+    },
+    "screen065": {
+      "title": "Screen title 65",
+      "description": "Screen description 65"
+    },
+    "screen066": {
+      "title": "Screen title 66",
+      "description": "Screen description 66"
+    },
+    "screen067": {
+      "title": "Screen title 67",
+      "description": "Screen description 67"
+    },
+    "screen068": {
+      "title": "Screen title 68",
+      "description": "Screen description 68"
+    },
+    "screen069": {
+      "title": "Screen title 69",
+      "description": "Screen description 69"
+    },
+    "screen070": {
+      "title": "Screen title 70",
+      "description": "Screen description 70"
+    },
+    "screen071": {
+      "title": "Screen title 71",
+      "description": "Screen description 71"
+    },
+    "screen072": {
+      "title": "Screen title 72",
+      "description": "Screen description 72"
+    },
+    "screen073": {
+      "title": "Screen title 73",
+      "description": "Screen description 73"
+    },
+    "screen074": {
+      "title": "Screen title 74",
+      "description": "Screen description 74"
+    },
+    "screen075": {
+      "title": "Screen title 75",
+      "description": "Screen description 75"
+    },
+    "screen076": {
+      "title": "Screen title 76",
+      "description": "Screen description 76"
+    },
+    "screen077": {
+      "title": "Screen title 77",
+      "description": "Screen description 77"
+    },
+    "screen078": {
+      "title": "Screen title 78",
+      "description": "Screen description 78"
+    },
+    "screen079": {
+      "title": "Screen title 79",
+      "description": "Screen description 79"
+    },
+    "screen080": {
+      "title": "Screen title 80",
+      "description": "Screen description 80"
+    },
+    "screen081": {
+      "title": "Screen title 81",
+      "description": "Screen description 81"
+    },
+    "screen082": {
+      "title": "Screen title 82",
+      "description": "Screen description 82"
+    },
+    "screen083": {
+      "title": "Screen title 83",
+      "description": "Screen description 83"
+    },
+    "screen084": {
+      "title": "Screen title 84",
+      "description": "Screen description 84"
+    },
+    "screen085": {
+      "title": "Screen title 85",
+      "description": "Screen description 85"
+    },
+    "screen086": {
+      "title": "Screen title 86",
+      "description": "Screen description 86"
+    },
+    "screen087": {
+      "title": "Screen title 87",
+      "description": "Screen description 87"
+    },
+    "screen088": {
+      "title": "Screen title 88",
+      "description": "Screen description 88"
+    },
+    "screen089": {
+      "title": "Screen title 89",
+      "description": "Screen description 89"
+    },
+    "screen090": {
+      "title": "Screen title 90",
+      "description": "Screen description 90"
+    }
+  },
+  "helper": {
+    "hint001": "Helpful guidance 1",
+    "hint002": "Helpful guidance 2",
+    "hint003": "Helpful guidance 3",
+    "hint004": "Helpful guidance 4",
+    "hint005": "Helpful guidance 5",
+    "hint006": "Helpful guidance 6",
+    "hint007": "Helpful guidance 7",
+    "hint008": "Helpful guidance 8",
+    "hint009": "Helpful guidance 9",
+    "hint010": "Helpful guidance 10",
+    "hint011": "Helpful guidance 11",
+    "hint012": "Helpful guidance 12",
+    "hint013": "Helpful guidance 13",
+    "hint014": "Helpful guidance 14",
+    "hint015": "Helpful guidance 15",
+    "hint016": "Helpful guidance 16",
+    "hint017": "Helpful guidance 17",
+    "hint018": "Helpful guidance 18",
+    "hint019": "Helpful guidance 19",
+    "hint020": "Helpful guidance 20",
+    "hint021": "Helpful guidance 21",
+    "hint022": "Helpful guidance 22",
+    "hint023": "Helpful guidance 23",
+    "hint024": "Helpful guidance 24",
+    "hint025": "Helpful guidance 25",
+    "hint026": "Helpful guidance 26",
+    "hint027": "Helpful guidance 27",
+    "hint028": "Helpful guidance 28",
+    "hint029": "Helpful guidance 29",
+    "hint030": "Helpful guidance 30",
+    "hint031": "Helpful guidance 31",
+    "hint032": "Helpful guidance 32",
+    "hint033": "Helpful guidance 33",
+    "hint034": "Helpful guidance 34",
+    "hint035": "Helpful guidance 35",
+    "hint036": "Helpful guidance 36",
+    "hint037": "Helpful guidance 37",
+    "hint038": "Helpful guidance 38",
+    "hint039": "Helpful guidance 39",
+    "hint040": "Helpful guidance 40"
+  },
+  "chatUi": {
+    "panel": {
+      "title": "Job Chat",
+      "subtitle": "Chat securely with your assigned worker.",
+      "unavailable": "Chat is currently unavailable.",
+      "locked": "Chat opens once the job is assigned.",
+      "onlineReady": "Online",
+      "typing": "Typing...",
+      "today": "Today",
+      "yesterday": "Yesterday",
+      "sent": "Sent",
+      "delivered": "Delivered",
+      "read": "Read",
+      "openInMaps": "Open in Maps",
+      "imageAlt": "Shared image",
+      "playVoice": "Play voice note",
+      "pauseVoice": "Pause voice note",
+      "noLocation": "Location details unavailable.",
+      "readMore": "Read more",
+      "showLess": "Show less",
+      "newMessages": "{count} new messages",
+      "attach": "Attach",
+      "attachDescription": "Share photos, voice notes, or location.",
+      "camera": "Camera",
+      "gallery": "Gallery",
+      "voice": "Voice note",
+      "stopRecording": "Stop recording",
+      "location": "Location",
+      "placeholder": "Type a message...",
+      "send": "Send",
+      "soundOn": "Sound on",
+      "soundOff": "Sound off",
+      "imageMessage": "Photo",
+      "voiceMessage": "Voice note",
+      "locationMessage": "Location",
+      "loadingOlder": "Loading older messages...",
+      "uploading": "Uploading...",
+      "imageUploadFailed": "Image upload failed.",
+      "voiceUploadFailed": "Voice upload failed.",
+      "locationUnsupported": "Location is not supported on this device.",
+      "locationFailed": "Unable to share location.",
+      "recordingUnsupported": "Voice recording is not supported.",
+      "recordingFailed": "Unable to start recording.",
+      "sendFailed": "Message failed to send."
+    },
+    "conversations": {
+      "title": "Messages",
+      "subtitle": "Keep track of all job conversations in one place.",
+      "searchPlaceholder": "Search conversations...",
+      "emptyTitle": "No conversations yet",
+      "emptyDescription": "Accept a bid to start chatting with workers.",
+      "noPreview": "No messages yet",
+      "archive": "Archive"
+    }
+  },
+  "reviews": {
+    "section": {
+      "title": "Rate This Job",
+      "subtitle": "Share your experience to help build trust on Yidak.",
+      "alreadyReviewed": "You have already submitted a review for this job.",
+      "anonymous": "Anonymous reviewer"
+    },
+    "form": {
+      "titleCustomer": "How was the worker?s service?",
+      "titleWorker": "How was your customer experience?",
+      "rows": {
+        "overall": "Overall Quality",
+        "quality": "Overall Quality",
+        "timeliness": "Timeliness",
+        "communication": "Communication",
+        "value": "Value for Money",
+        "cleanliness": "Cleanliness"
+      },
+      "overallAuto": "Overall rating is auto-calculated from your category ratings.",
+      "reviewLabel": "Tell others about your experience",
+      "reviewPlaceholder": "Describe what went well, what could improve, and whether you recommend this worker/customer.",
+      "photoLabel": "Add photos of the work",
+      "photoAction": "Upload up to 5 photos",
+      "photoPreviewAlt": "Review photo",
+      "removePhoto": "Remove",
+      "tipLabel": "Add a tip for great work?",
+      "tipPreset": "AED {amount}",
+      "tipCustomPlaceholder": "Custom tip amount",
+      "submit": "Submit Review",
+      "submitLoading": "Submitting review...",
+      "skip": "I'll review later",
+      "errors": {
+        "ratingRequired": "Please provide a rating before submitting.",
+        "reviewTooShort": "Please write at least 20 characters."
+      },
+      "messages": {
+        "success": "Review submitted successfully.",
+        "error": "Unable to submit review at the moment."
+      }
+    },
+    "card": {
+      "categories": {
+        "quality": "Overall Quality",
+        "timeliness": "Timeliness",
+        "communication": "Communication",
+        "value": "Value for Money",
+        "cleanliness": "Cleanliness"
+      },
+      "readMore": "Read more",
+      "showLess": "Show less",
+      "photoAlt": "Review image",
+      "workerResponse": "Worker response",
+      "helpfulPrompt": "Was this review helpful?"
+    },
+    "breakdown": {
+      "totalReviews": "{count} reviews",
+      "categories": {
+        "quality": "Quality",
+        "timeliness": "Timeliness",
+        "communication": "Communication",
+        "value": "Value",
+        "cleanliness": "Cleanliness"
+      }
+    }
+  },
+  "workers": {
+    "publicProfile": {
+      "pageTitle": "Worker Profile",
+      "pageSubtitle": "Explore ratings, portfolio, and service reliability before you hire.",
+      "invalidWorker": "Invalid worker profile URL.",
+      "missingProfile": "Worker profile details are currently unavailable.",
+      "memberSince": "Member since {date}",
+      "tierBadge": "{tier} worker",
+      "responseTime": "Usually responds within {minutes} minutes",
+      "available": "Available",
+      "busy": "Busy",
+      "actions": {
+        "request": "Request This Worker",
+        "contact": "Contact"
+      },
+      "stats": {
+        "jobsCompleted": "Jobs Completed",
+        "completionRate": "Completion Rate",
+        "onTimeRate": "On-Time Rate",
+        "repeatCustomers": "Repeat Customers",
+        "totalEarnings": "Total Earnings"
+      },
+      "bioTitle": "About",
+      "bioEmpty": "This worker has not added a bio yet.",
+      "skillsTitle": "Skills & Certifications",
+      "unknownIssuer": "Unknown issuer",
+      "unknownDate": "Unknown date",
+      "verified": "Verified",
+      "unverified": "Pending verification",
+      "portfolioTitle": "Portfolio Gallery",
+      "portfolioAlt": "Portfolio item",
+      "portfolioPlaceholder": "Portfolio media unavailable",
+      "serviceAreaTitle": "Service Areas",
+      "serviceRadius": "Service radius: {value} km",
+      "serviceAreaMapTitle": "Service area map",
+      "reviewsTitle": "Reviews ({count})",
+      "filters": {
+        "rating": "Rating",
+        "category": "Category",
+        "sortBy": "Sort by",
+        "allRatings": "All ratings",
+        "allCategories": "All categories",
+        "quality": "Quality",
+        "timeliness": "Timeliness",
+        "communication": "Communication",
+        "value": "Value",
+        "cleanliness": "Cleanliness",
+        "mostRecent": "Most recent",
+        "mostHelpful": "Most helpful"
+      }
+    }
+  },
+  "notificationsCenter": {
+    "title": "Notifications",
+    "unreadCount": "{count} unread",
+    "markAllRead": "Mark all as read",
+    "emptyTitle": "You're all caught up!",
+    "emptyBody": "No new alerts right now.",
+    "viewAll": "View full history",
+    "historyTitle": "Notification History",
+    "historySubtitle": "Track all alerts, bids, and account updates."
+  },
+  "referrals": {
+    "title": "Referral Program",
+    "subtitle": "Invite friends and earn rewards for successful referrals.",
+    "loading": "Loading referral data...",
+    "yourCodeTitle": "Your Referral Code",
+    "copyCode": "Copy code",
+    "shareWhatsApp": "Share on WhatsApp",
+    "shareSms": "Share by SMS",
+    "shareEmail": "Share by Email",
+    "copyLink": "Copy link",
+    "copiedCode": "Referral code copied.",
+    "copiedLink": "Referral link copied.",
+    "emailSubject": "Join Yidak with my referral code",
+    "stats": {
+      "totalReferrals": "Total Referrals",
+      "successful": "Successful",
+      "earned": "Earned"
+    },
+    "tierTitle": "Reward Tier Progress",
+    "currentReward": "Current reward: AED {amount}",
+    "nextReward": "Next tier reward: AED {amount}",
+    "maxTier": "Top tier reached",
+    "toNextTier": "{count} referrals to next tier",
+    "historyTitle": "Referral History",
+    "historyEmpty": "No referrals yet.",
+    "status": {
+      "pending": "Pending",
+      "completed": "Completed",
+      "credited": "Credited",
+      "cancelled": "Cancelled"
+    }
+  },
+  "leaderboard": {
+    "title": "Worker Leaderboard",
+    "subtitle": "Top-performing workers across categories and cities.",
+    "categories": {
+      "all": "All",
+      "plumbing": "Plumbing",
+      "electrical": "Electrical",
+      "ac-hvac": "AC & HVAC"
+    },
+    "cityPlaceholder": "Select city",
+    "allCities": "All cities",
+    "score": "Score: {score}",
+    "rating": "Rating: {value}",
+    "jobs": "Jobs: {value}",
+    "topWorkers": "Top 50 Workers",
+    "loading": "Loading leaderboard...",
+    "jobsLabel": "jobs",
+    "empty": "No workers match this filter yet.",
+    "yourRank": "Your current rank: #{rank}",
+    "notRanked": "You are not ranked yet. Keep completing jobs."
+  },
+  "notificationPreferences": {
+    "title": "Notification Preferences",
+    "subtitle": "Control how and when Yidak sends alerts.",
+    "loading": "Loading preferences...",
+    "saved": "Notification preferences updated.",
+    "typesTitle": "Notification Types",
+    "push": "Push notification",
+    "inApp": "In-app notification",
+    "quietHoursTitle": "Quiet Hours",
+    "prayerAware": "Prayer-time aware quiet mode",
+    "quietEnabled": "Enable custom quiet hours",
+    "quietStart": "Start time",
+    "quietEnd": "End time",
+    "otherTitle": "Other Settings",
+    "language": "Notification language",
+    "english": "English",
+    "arabic": "Arabic",
+    "soundEnabled": "Enable notification sound",
+    "batchBids": "Batch multiple bid notifications",
+    "save": "Save preferences",
+    "saving": "Saving...",
+    "types": {
+      "new_bid": "New Bid",
+      "bid_accepted": "Bid Accepted",
+      "outbid": "Outbid",
+      "job_posted": "Job Posted",
+      "message_received": "New Message",
+      "payment_authorized": "Payment Authorized",
+      "payment_released": "Payment Released",
+      "review_received": "Review Received",
+      "tier_upgrade": "Tier Upgrade",
+      "referral_credit": "Referral Credit"
+    }
+  },
+  "gamification": {
+    "tierProgress": {
+      "title": "Tier Progress",
+      "subtitle": "Track your progress from Bronze to Platinum.",
+      "tiers": {
+        "bronze": "Bronze",
+        "silver": "Silver",
+        "gold": "Gold",
+        "platinum": "Platinum"
+      },
+      "jobsNeeded": "{count} jobs",
+      "nextTier": "Complete {count} more jobs to reach {tier}.",
+      "topTier": "You are already at the highest tier.",
+      "benefits": {
+        "benefit": "Benefit",
+        "value": "Value",
+        "commission": "Commission rate",
+        "maxBids": "Max active bids",
+        "badge": "Profile badge",
+        "priority": "Priority listing"
+      },
+      "yes": "Yes",
+      "no": "No"
+    },
+    "badges": {
+      "title": "Badges",
+      "subtitle": "Earn achievements to boost trust and visibility.",
+      "earnedOn": "Earned on {date}",
+      "today": "Today",
+      "progress": "{current}/{target}",
+      "detailProgress": "Progress: {current}/{target}",
+      "earnedBadge": "Earned",
+      "lockedBadge": "Locked"
+    }
+  }
+}
+

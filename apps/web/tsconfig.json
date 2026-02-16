@@ -1,0 +1,36 @@
+{
+  "extends": "@yidak/typescript-config/nextjs.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+      "@yidak/types": [
+        "../../packages/types/src/index.ts"
+      ],
+      "@yidak/utils": [
+        "../../packages/utils/src/index.ts"
+      ],
+      "@yidak/ui": [
+        "../../packages/ui/src/index.ts"
+      ],
+      "@yidak/db": [
+        "../../packages/db/src/client.ts"
+      ],
+      "@yidak/api/*": [
+        "../api/src/*"
+      ]
+    },
+    "jsx": "react-jsx"
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "next-env.d.ts",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
